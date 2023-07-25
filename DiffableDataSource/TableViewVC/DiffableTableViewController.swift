@@ -22,6 +22,8 @@ class DiffableTableViewController: UIViewController  {
         initTableView()
         initDataSource()
         title = "Table View"
+        
+        //to add plus button to navigation bar 
         navigationItem.rightBarButtonItem = UIBarButtonItem(
             image: UIImage(systemName: "plus"),
             style: .done,

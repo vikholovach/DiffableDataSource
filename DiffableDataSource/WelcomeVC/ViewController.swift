@@ -20,7 +20,7 @@ class ViewController: UIViewController {
             //tableView
             self.navigationController?.pushViewController(DiffableTableViewController(), animated: true)
         default:
-            return
+            self.navigationController?.pushViewController(DiffableCollectionViewController(), animated: true)
         }
         
     }
